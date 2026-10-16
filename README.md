@@ -30,15 +30,32 @@ Recording web applications usually means dealing with jagged mouse wheel clicks,
 
 **SmoothFlow Studio solves this natively in Chrome.** Direct smooth camera crane movements, lock in section-to-section timing, smooth your mouse with spring-damper physics, and record crystal-clear 60 FPS videos with a single click.
 
-```
-+-------------------------------------------------------------------------+
-|                                                                         |
-|   Jerky Mouse Wheel  +  Hand Jitters  --->  [ SmoothFlow Studio Engine ] |
-|                                                       |                 |
-|                                                       v                 |
-|   Cinematic Quintic Glide  +  Spring Cursor  +  60 FPS Crisp Video      |
-|                                                                         |
-+-------------------------------------------------------------------------+
+```mermaid
+flowchart LR
+    subgraph OldWay["❌ The Pain (Manual Recording)"]
+        direction TB
+        A1["🖱️ Jerky Mouse Wheel Notches"]
+        A2["🖐️ Erratic Cursor Twitches & Jitters"]
+        A3["⏳ Hours of Tedious Post-Editing"]
+    end
+
+    subgraph Studio["⚡ SmoothFlow Studio Engine"]
+        direction TB
+        B1["🌊 Inertial Butter Momentum"]
+        B2["🎯 Section-to-Section Waypoint Flight"]
+        B3["🪄 Spring-Damper Cursor Physics"]
+        B4["🎥 Synchronized 60 FPS Recorder"]
+    end
+
+    subgraph Output["✨ Studio-Grade Result (Screen Studio Style)"]
+        direction TB
+        C1["🎬 Cinematic Quintic Bezier Glide"]
+        C2["🎯 Weighted, Fluid Cursor Motion"]
+        C3["💎 Crisp 60 FPS / 4K Video Export"]
+    end
+
+    OldWay ==>|"Zero Post-Production"| Studio
+    Studio ==>|"1-Click Instant Export"| Output
 ```
 
 ---
