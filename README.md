@@ -3,132 +3,132 @@
 ![SmoothFlow Studio Banner](assets/banner.svg)
 
 # SmoothFlow Studio
-### ⚡ Cinematic Web Scroll Director & 60 FPS Cursor Capture for Google Chrome
+### Cinematic Web Scroll Director & 60 FPS Cursor Capture for Google Chrome
 
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](manifest.json)
-[![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-Ready-34A853?style=for-the-badge&logo=googlechrome&logoColor=white)](#-chrome-web-store-publishing)
-[![Frame Rate](https://img.shields.io/badge/Capture-60_FPS_Fluid-FF0055?style=for-the-badge&logo=obsstudio&logoColor=white)](#-synchronized-60-fps--4k-recording)
-[![Resolution](https://img.shields.io/badge/Export-Up_to_4K_UHD-8b5cf6?style=for-the-badge)](#-synchronized-60-fps--4k-recording)
+[![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-Ready-34A853?style=for-the-badge&logo=googlechrome&logoColor=white)](#chrome-web-store-publishing)
+[![Frame Rate](https://img.shields.io/badge/Capture-60_FPS_Fluid-FF0055?style=for-the-badge&logo=obsstudio&logoColor=white)](#synchronized-60-fps--4k-recording)
+[![Resolution](https://img.shields.io/badge/Export-Up_to_4K_UHD-8b5cf6?style=for-the-badge)](#synchronized-60-fps--4k-recording)
 [![Sponsor](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/earondemands-sys)
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/earondemands)
-[![Privacy](https://img.shields.io/badge/Privacy-100%25_Local_Zero_Tracking-10b981?style=for-the-badge)](#-privacy--security)
+[![Privacy](https://img.shields.io/badge/Privacy-100%25_Local_Zero_Tracking-10b981?style=for-the-badge)](#privacy--security)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 
 <br/>
 
-**Transform jerky, amateur website recordings into buttery-smooth, cinematic product demos (Screen Studio style) directly inside your browser — zero video editing software required.**
+**Transform jerky, manual web recordings into professional, cinematic product demos (Screen Studio quality) directly inside Google Chrome without external video editing suites.**
 
-[Features](#-key-features) • [Installation](#-installation-guide) • [Architecture](#-architecture) • [Keyboard Shortcuts](#-keyboard-shortcuts) • [Publishing](#-chrome-web-store-publishing) • [Contributing](#-contributing)
+[Features](#key-features) • [Architecture](#architecture) • [Keyboard Shortcuts](#keyboard-shortcuts) • [Installation](#installation-guide) • [Sponsors](#sponsors--community-backing) • [Contributing](#contributing)
 
 </div>
 
 ---
 
-## 🌟 Why SmoothFlow?
+## Why SmoothFlow?
 
-Recording web applications usually means dealing with jagged mouse wheel clicks, erratic cursor jitters, and inconsistent manual pacing. Fixing this in post-production with After Effects or Premiere takes hours of tedious keyframing.
+Capturing web applications traditionally introduces mechanical mouse wheel notches, erratic pointer jitter, and inconsistent manual scroll pacing. Eliminating these flaws in post-production using timeline keyframing in Adobe After Effects or Premiere Pro requires substantial time and effort.
 
-**SmoothFlow Studio solves this natively in Chrome.** Direct smooth camera crane movements, lock in section-to-section timing, smooth your mouse with spring-damper physics, and record crystal-clear 60 FPS videos with a single click.
+**SmoothFlow Studio automates camera crane dynamics natively within the browser runtime.** Direct multi-waypoint transitions, configure section-to-section timing, apply spring-damper cursor physics, and capture hardware-accelerated 60 FPS video with a single shortcut.
 
 ```mermaid
 flowchart LR
-    subgraph OldWay["❌ The Pain (Manual Recording)"]
+    subgraph Input["Manual Screen Recording"]
         direction TB
-        A1["🖱️ Jerky Mouse Wheel Notches"]
-        A2["🖐️ Erratic Cursor Twitches & Jitters"]
-        A3["⏳ Hours of Tedious Post-Editing"]
+        A1["Mechanical Scroll Wheel Notches"]
+        A2["Pointer Jitter & Hand Tremors"]
+        A3["Tedious Post-Production Keyframing"]
     end
 
-    subgraph Studio["⚡ SmoothFlow Studio Engine"]
+    subgraph Core["SmoothFlow Runtime Engine"]
         direction TB
-        B1["🌊 Inertial Butter Momentum"]
-        B2["🎯 Section-to-Section Waypoint Flight"]
-        B3["🪄 Spring-Damper Cursor Physics"]
-        B4["🎥 Synchronized 60 FPS Recorder"]
+        B1["Inertial Momentum Filter"]
+        B2["Waypoint Trajectory Planner"]
+        B3["Spring-Damper Cursor Kinematics"]
+        B4["Hardware-Accelerated 60 FPS Capture"]
     end
 
-    subgraph Output["✨ Studio-Grade Result (Screen Studio Style)"]
+    subgraph Output["Production Master Output"]
         direction TB
-        C1["🎬 Cinematic Quintic Bezier Glide"]
-        C2["🎯 Weighted, Fluid Cursor Motion"]
-        C3["💎 Crisp 60 FPS / 4K Video Export"]
+        C1["Quintic Bezier Velocity Profile"]
+        C2["Jitter-Free Weighted Pointer"]
+        C3["Lossless 4K / 60 FPS Video Export"]
     end
 
-    OldWay ==>|"Zero Post-Production"| Studio
-    Studio ==>|"1-Click Instant Export"| Output
+    Input ==>|"In-Browser Interception"| Core
+    Core ==>|"1-Click Pipeline"| Output
 ```
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 1. 🎯 Target Section Selector & Timeline Director
-- **Click-to-Pick**: Hover and click any DOM element on the page (e.g. Hero title, pricing table, or CTA button) to lock in exact pixel coordinates.
-- **"📌 Here" Shortcut**: Scroll to any desired viewpoint and capture coordinates instantly.
-- **Smart Presets**: One-click flight paths for `Hero ➔ CTA`, `Hero ➔ Middle`, and `Hero ➔ Bottom`.
-- **Multi-Scene Director**: Chain multiple scroll waypoints together with customized pause durations at each destination.
+### 1. Section Waypoint Selector & Timeline Director
+- **Click-to-Pick Target Engine**: Hover and click any DOM node (Hero banners, pricing cards, call-to-action buttons) to lock in exact viewport coordinates.
+- **Viewport Anchor Shortcut**: Instantly capture the current viewport scroll offset with the "Here" shortcut.
+- **Preconfigured Flight Paths**: One-click navigation routines for `Hero -> CTA`, `Hero -> Middle`, and `Hero -> Bottom`.
+- **Multi-Scene Director**: Chain sequential scroll destinations with custom pause durations at each waypoint.
 
-### 2. ⏱️ Camera Crane Easing Curves & Timing
-Choose mathematically tuned motion profiles to fit the vibe of your product demo:
+### 2. Camera Crane Easing Curves & Velocity Profiles
+Configure mathematically tuned easing functions to match your production style:
 
-| Easing Profile | Motion Characteristics | Best Used For |
+| Easing Profile | Velocity Characteristics | Primary Use Case |
 | :--- | :--- | :--- |
-| **Cinematic Butter** | Smooth quintic polynomial ($t^5$) with soft deceleration | Hero showcases & landing page walk-throughs |
-| **Ease-In-Out** | Balanced cubic acceleration curve | Standard interface navigation |
-| **Cushioned Glide** | Linear acceleration with soft magnetic landing | Long documentation or multi-section reads |
-| **Cruise** | Constant linear velocity with smooth buffer ramps | Triggering scroll-linked CSS animations |
-| **Snappy** | Fast quadratic response with short damp | SaaS dashboards & high-density apps |
-| **Spring Damped** | Mechanical harmonic oscillation | Playful, interactive UI elements |
+| **Cinematic Quintic** | Symmetrical quintic polynomial ($t^5$) with soft deceleration | Hero showcases and landing page presentations |
+| **Cubic Ease-In-Out** | Balanced cubic acceleration and braking curve | Standard user interface navigation |
+| **Cushioned Glide** | Linear acceleration with magnetic soft landing | Documentation, blogs, and multi-paragraph reading |
+| **Cruise** | Constant linear velocity with smooth buffer ramps | Triggering scroll-linked CSS and WebGL animations |
+| **Snappy** | Quadratic curve with rapid initial acceleration | SaaS dashboards and dense technical interfaces |
+| **Spring Damped** | Harmonic mechanical oscillation | Interactive component demonstrations |
 
-### 3. 🎥 Synchronized 60 FPS & 4K Recording
-- **1-Click Sync Record**: Coordinates countdown, HUD auto-hiding, scroll motion, and video capture automatically.
-- **Clean Output**: The floating director HUD automatically disappears during recording so your output is 100% pristine.
+### 3. Synchronized 60 FPS & 4K Video Recorder
+- **Integrated Capture Pipeline**: Coordinates visual countdown, HUD auto-hiding, scroll execution, and capture triggers.
+- **Zero-Artifact Output**: The floating director HUD automatically unmounts during capture to ensure 100% clean video frames.
 - **High-Fidelity Codecs**: Native browser `MediaRecorder` supporting **WebM (VP9)** and **MP4 (H.264)** formats.
-- **Resolution Scaler**: Capture at 720p, 1080p, 1440p 2K, and 2160p 4K UHD.
-- **Instant Preview & Download**: Inspect your recording in the built-in video player modal and download immediately.
+- **Resolution Scaler**: Output presets ranging from 720p HD up to 2160p 4K UHD.
+- **Integrated Video Inspector**: Preview recordings in an embedded player with immediate local download.
 
-### 4. 🖱️ Screen Studio Virtual Cursor Physics
-- **Spring-Damper Interpolation**: Replaces erratic hand twitches with clean, weighted gliding motion.
-- **5 Sleek Cursor Styles**: `Arrow`, `Classic`, `Dot`, `Ring`, and `Halo`.
-- **Luminance Adaptive Contrast**: Automatic high-contrast borders ensure the cursor never gets lost on dark or light backgrounds.
-- **Click Wave Ripples**: Pulsing radial wave animations on mouse clicks.
-- **Spotlight Mode**: Dynamically dims the background around the cursor to guide viewer focus.
-- **Idle Auto-Hide**: Fades out seamlessly when motionless to keep reading unobstructed.
+### 4. Virtual Cursor Kinematics & Visual Physics
+- **Spring-Damper Smoothing**: Eliminates erratic mouse movements through spring-damper differential equations.
+- **5 Pointer Geometries**: Choose from `Arrow`, `Classic`, `Dot`, `Ring`, and `Halo`.
+- **Luminance Adaptive Contrast**: Automatic contrast borders guarantee cursor visibility on dark and light surfaces.
+- **Radial Click Ripples**: High-visibility radial wave pulses rendered on pointer clicks.
+- **Spotlight Mode**: Dynamically dims surrounding interface elements to guide audience focus.
+- **Activity-Aware Auto-Hide**: Fades out cursor during idle periods to prevent content obstruction.
 
-### 5. 🌊 Butter Wheel Inertial Scrolling
-- Hooks into browser wheel events to convert harsh mouse wheel ticks into fluid, inertial momentum.
+### 5. Inertial Wheel Scroll Engine
+- Intercepts native wheel events and applies inertia dampening to convert discrete wheel notches into fluid continuous motion.
 
 ---
 
-## ⌨️ Keyboard Shortcuts
+## Keyboard Shortcuts
 
-Designed for high-speed workflow without interrupting your screen recordings:
+Configured for high-efficiency operation without contaminating screen recordings:
 
-| Action | macOS Shortcut | Windows / Linux Shortcut |
+| Command | macOS Shortcut | Windows / Linux Shortcut |
 | :--- | :---: | :---: |
 | **Toggle Floating HUD** | <kbd>⌘</kbd> + <kbd>Shift</kbd> + <kbd>E</kbd> | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>E</kbd> |
 | **Preview Motion Flight** | <kbd>⌘</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> |
 | **Synchronized Record & Scroll** | <kbd>⌘</kbd> + <kbd>Shift</kbd> + <kbd>L</kbd> | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>L</kbd> |
-| **Abort / Stop Motion** | <kbd>Esc</kbd> | <kbd>Esc</kbd> |
+| **Cancel Operation / Abort** | <kbd>Esc</kbd> | <kbd>Esc</kbd> |
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
-SmoothFlow runs in a non-intrusive, isolated runtime injected via Chrome's Manifest V3 Content Script framework:
+SmoothFlow operates inside an isolated, non-intrusive runtime utilizing Chrome's Manifest V3 architecture:
 
 ```mermaid
 graph TD
     subgraph Browser["Google Chrome Environment"]
-        Popup["Toolbar Popup (popup.html / popup.js)"]
-        ActiveTab["Active Web Page DOM"]
+        Popup["Toolbar Extension Popup (popup.html / popup.js)"]
+        ActiveTab["Active Tab Web Page DOM"]
         
-        subgraph Engine["SmoothFlow Core Engine (content.js)"]
-            HUD["Frosted Glass Director HUD"]
+        subgraph Engine["SmoothFlow Core Runtime (content.js)"]
+            HUD["Frosted Glass Director Interface"]
             Picker["DOM Element Inspector"]
-            Motion["Kinetic Motion & Easing Engine"]
-            Cursor["Spring-Damper Cursor Physics"]
-            Recorder["60 FPS MediaRecorder Pipeline"]
+            Motion["Kinetic Trajectory & Easing Engine"]
+            Cursor["Spring-Damper Cursor Kinematics"]
+            Recorder["60 FPS MediaRecorder Stream Pipeline"]
         end
         
         Storage[("Chrome Local Storage")]
@@ -146,100 +146,123 @@ graph TD
 
 ---
 
-## 🚀 Installation Guide
+## Installation Guide
 
-### Option A: Install from Unpacked Source (Developers)
+### Option A: Install from Source (Developer Mode)
 
-1. Clone or download this repository:
+1. Clone this repository locally:
    ```bash
    git clone https://github.com/earondemands-sys/smoothflow.git
    cd smoothflow
    ```
-2. Open Google Chrome and navigate to:
+2. Open Google Chrome and enter:
    ```
    chrome://extensions
    ```
-3. In the top-right corner, switch the **Developer mode** toggle to **ON**.
-4. In the top-left corner, click **Load unpacked**.
-5. Select the `smoothflow` repository folder.
-6. The **SmoothFlow Studio** icon will now appear in your browser toolbar!
+3. Enable the **Developer mode** toggle located in the upper-right corner.
+4. Click **Load unpacked** in the upper-left corner.
+5. Select the cloned repository directory.
+6. The **SmoothFlow Studio** icon is now installed in your Chrome extensions menu.
 
 ---
 
-### Option B: Built-in Interactive Demo
+### Option B: Local Interactive Demo
 
-Test all features instantly without deploying a web server:
+Test and verify all features locally without spinning up a server:
 
 1. Open `demo.html` in Chrome:
    ```
    file:///path/to/smoothflow/demo.html
    ```
-2. The sleek floating HUD will appear automatically.
-3. Click the **Hero ➔ CTA** preset or use **🎯 Pick** to select elements.
-4. Hit **Preview** (<kbd>⌘⇧S</kbd>) to witness the camera crane glide!
-5. Hit **Record** (<kbd>⌘⇧L</kbd>) to export a crisp 60 FPS video.
+2. The director HUD mounts automatically.
+3. Click the **Hero -> CTA** preset or use the **Pick** tool to select elements.
+4. Press <kbd>⌘⇧S</kbd> (<kbd>Ctrl+Shift+S</kbd>) to preview camera flight.
+5. Press <kbd>⌘⇧L</kbd> (<kbd>Ctrl+Shift+L</kbd>) to record a 60 FPS video.
 
 ---
 
-## 📦 Developer Scripts & Production Packaging
+## Developer Toolchain & Production Packaging
 
-SmoothFlow features a lightweight, zero-dependency Node.js toolchain for validation and distribution:
+SmoothFlow maintains a zero-dependency Node.js toolchain for automated validation and distribution:
 
 ```bash
-# 1. Run pre-flight linting, manifest verification, and syntax checks
+# 1. Run manifest verification, asset integrity checks, and JS syntax validation
 npm run validate
 
-# 2. Build store-ready release archive (dist/smoothflow-v1.0.0.zip)
+# 2. Package clean production archive into dist/smoothflow-v1.0.0.zip
 npm run build
 
-# 3. Run test suite
+# 3. Execute testing pipeline
 npm test
 ```
 
-### Generated Artifacts
-Running `npm run build` generates a pristine, stripped ZIP archive in `dist/` containing only store-essential files (`manifest.json`, `icons/`, `content/`, and `popup/`), automatically omitting `.DS_Store` and development files.
+### Build Artifacts
+Executing `npm run build` compiles a release-ready archive in `dist/` containing strictly required assets (`manifest.json`, `icons/`, `content/`, and `popup/`), automatically stripping system files and development overhead.
 
 ---
 
-## 🛒 Chrome Web Store Publishing
+## Chrome Web Store Publishing
 
-To publish your own version to the Chrome Web Store:
+To distribute your customized build:
 
-1. Run `npm run build` to generate `dist/smoothflow-v1.0.0.zip`.
-2. Visit the **[Chrome Web Store Developer Dashboard](https://chrome.google.com/webstore/devconsole)**.
-3. Click **+ New Item** and upload `dist/smoothflow-v1.0.0.zip`.
-4. Fill in the store details (icons are located in `icons/`).
-5. Submit for automated review!
-
----
-
-## 🔒 Privacy & Security
-
-SmoothFlow is designed with privacy as a foundational principle:
-
-- **100% Client-Side**: All video recording, scroll interpolation, and cursor simulation happens completely inside your local browser instance.
-- **Zero Telemetry**: No analytics, tracking pixels, or external API calls.
-- **Zero Third-Party Network Requests**: Works completely offline.
-- **No Keystroke Logging**: Only designated hotkeys (`⌘⇧E`, `⌘⇧S`, `⌘⇧L`, `Esc`) are monitored.
+1. Execute `npm run build` to generate `dist/smoothflow-v1.0.0.zip`.
+2. Navigate to the **[Chrome Web Store Developer Dashboard](https://chrome.google.com/webstore/devconsole)**.
+3. Select **+ New Item** and submit `dist/smoothflow-v1.0.0.zip`.
+4. Populate listing metadata and submit for automated review.
 
 ---
 
-## 🤝 Contributing
+## Privacy & Security
 
-Contributions, feature requests, and bug reports are warmly welcome!
-Please check out [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code style and PR guidelines.
+SmoothFlow is engineered with strict local-first privacy guarantees:
 
-## 💖 Support the Project
-
-If SmoothFlow helped you record buttery-smooth product demos or saved you hours in video editing, consider supporting ongoing development:
-
-- **GitHub Sponsors**: [Sponsor @earondemands-sys on GitHub](https://github.com/sponsors/earondemands-sys) *(0% fee, 100% directly supports development)*
-- **Buy Me a Coffee**: [buymeacoffee.com/earondemands](https://buymeacoffee.com/earondemands)
+- **100% Client-Side Execution**: All video capture, motion calculation, and cursor rendering occurs solely within your local browser session.
+- **Zero Telemetry**: No tracking identifiers, analytics scripts, or diagnostic pings.
+- **Zero External Network Dependencies**: Operates completely in offline environments.
+- **No Keystroke Monitoring**: Only reserved shortcut combinations (<kbd>⌘⇧E</kbd>, <kbd>⌘⇧S</kbd>, <kbd>⌘⇧L</kbd>, <kbd>Esc</kbd>) are observed.
 
 ---
 
-## 📄 License
+## Sponsors & Community Backing
 
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+SmoothFlow Studio is an independent open-source project. If SmoothFlow saves you hours in post-production video editing or elevates your product demos, consider supporting ongoing development.
 
-Developed with ❤️ by **[Jayakrishna Chinta](https://github.com/earondemands-sys)**.
+<div align="center">
+
+[![Sponsor on GitHub](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/earondemands-sys)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/earondemands)
+
+</div>
+
+### Sponsorship Benefits
+
+100% of sponsorship funds directly support continuous engine maintenance, 4K/60fps encoder optimization, and new motion kinematics features.
+
+| Backer Level | Contribution | Perks & Recognition |
+| :--- | :--- | :--- |
+| **Individual Backer** | Custom / One-Time | Permanent acknowledgment in GitHub Releases and README backers list |
+| **Community Supporter** | $5 / month | Supporter badge + Early access to beta builds and design discussions |
+| **Bronze Sponsor** | $25 / month | Personal / company logo and link displayed in the repository README |
+| **Silver Sponsor** | $100 / month | Prominent logo placement on README + Priority issue and bug resolution |
+| **Gold / Enterprise** | $250+ / month | Top-tier header logo + Custom feature request consultation |
+
+- **Sponsor directly via GitHub (0% platform fee, 100% direct developer payout)**:  
+  [https://github.com/sponsors/earondemands-sys](https://github.com/sponsors/earondemands-sys)
+
+- **Sponsor via Buy Me a Coffee**:  
+  [https://buymeacoffee.com/earondemands](https://buymeacoffee.com/earondemands)
+
+---
+
+## Contributing
+
+Contributions, technical discussions, and feature proposals are welcome.
+Please review [CONTRIBUTING.md](CONTRIBUTING.md) for code styling and branch submission standards.
+
+---
+
+## License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for complete details.
+
+Developed by **[Jayakrishna Chinta](https://github.com/earondemands-sys)**.
