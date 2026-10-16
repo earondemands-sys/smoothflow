@@ -24,7 +24,7 @@
 
 ---
 
-## Why SmoothFlow?
+## <img src="assets/icons/zap.svg" width="22" height="22" valign="middle" /> Why SmoothFlow?
 
 Capturing web applications traditionally introduces mechanical mouse wheel notches, erratic pointer jitter, and inconsistent manual scroll pacing. Eliminating these flaws in post-production using timeline keyframing in Adobe After Effects or Premiere Pro requires substantial time and effort.
 
@@ -60,15 +60,15 @@ flowchart LR
 
 ---
 
-## Key Features
+## <img src="assets/icons/sparkles.svg" width="22" height="22" valign="middle" /> Key Features
 
-### 1. Section Waypoint Selector & Timeline Director
+### <img src="assets/icons/target.svg" width="18" height="18" valign="middle" /> 1. Section Waypoint Selector & Timeline Director
 - **Click-to-Pick Target Engine**: Hover and click any DOM node (Hero banners, pricing cards, call-to-action buttons) to lock in exact viewport coordinates.
 - **Viewport Anchor Shortcut**: Instantly capture the current viewport scroll offset with the "Here" shortcut.
 - **Preconfigured Flight Paths**: One-click navigation routines for `Hero -> CTA`, `Hero -> Middle`, and `Hero -> Bottom`.
 - **Multi-Scene Director**: Chain sequential scroll destinations with custom pause durations at each waypoint.
 
-### 2. Camera Crane Easing Curves & Velocity Profiles
+### <img src="assets/icons/sliders.svg" width="18" height="18" valign="middle" /> 2. Camera Crane Easing Curves & Velocity Profiles
 Configure mathematically tuned easing functions to match your production style:
 
 | Easing Profile | Velocity Characteristics | Primary Use Case |
@@ -80,14 +80,14 @@ Configure mathematically tuned easing functions to match your production style:
 | **Snappy** | Quadratic curve with rapid initial acceleration | SaaS dashboards and dense technical interfaces |
 | **Spring Damped** | Harmonic mechanical oscillation | Interactive component demonstrations |
 
-### 3. Synchronized 60 FPS & 4K Video Recorder
+### <img src="assets/icons/video.svg" width="18" height="18" valign="middle" /> 3. Synchronized 60 FPS & 4K Video Recorder
 - **Integrated Capture Pipeline**: Coordinates visual countdown, HUD auto-hiding, scroll execution, and capture triggers.
 - **Zero-Artifact Output**: The floating director HUD automatically unmounts during capture to ensure 100% clean video frames.
 - **High-Fidelity Codecs**: Native browser `MediaRecorder` supporting **WebM (VP9)** and **MP4 (H.264)** formats.
 - **Resolution Scaler**: Output presets ranging from 720p HD up to 2160p 4K UHD.
 - **Integrated Video Inspector**: Preview recordings in an embedded player with immediate local download.
 
-### 4. Virtual Cursor Kinematics & Visual Physics
+### <img src="assets/icons/mouse-pointer.svg" width="18" height="18" valign="middle" /> 4. Virtual Cursor Kinematics & Visual Physics
 - **Spring-Damper Smoothing**: Eliminates erratic mouse movements through spring-damper differential equations.
 - **5 Pointer Geometries**: Choose from `Arrow`, `Classic`, `Dot`, `Ring`, and `Halo`.
 - **Luminance Adaptive Contrast**: Automatic contrast borders guarantee cursor visibility on dark and light surfaces.
@@ -95,12 +95,12 @@ Configure mathematically tuned easing functions to match your production style:
 - **Spotlight Mode**: Dynamically dims surrounding interface elements to guide audience focus.
 - **Activity-Aware Auto-Hide**: Fades out cursor during idle periods to prevent content obstruction.
 
-### 5. Inertial Wheel Scroll Engine
+### <img src="assets/icons/refresh-cw.svg" width="18" height="18" valign="middle" /> 5. Inertial Wheel Scroll Engine
 - Intercepts native wheel events and applies inertia dampening to convert discrete wheel notches into fluid continuous motion.
 
 ---
 
-## Keyboard Shortcuts
+## <img src="assets/icons/keyboard.svg" width="22" height="22" valign="middle" /> Keyboard Shortcuts
 
 Configured for high-efficiency operation without contaminating screen recordings:
 
@@ -113,7 +113,7 @@ Configured for high-efficiency operation without contaminating screen recordings
 
 ---
 
-## Architecture
+## <img src="assets/icons/layers.svg" width="22" height="22" valign="middle" /> Architecture
 
 SmoothFlow operates inside an isolated, non-intrusive runtime utilizing Chrome's Manifest V3 architecture:
 
@@ -146,7 +146,7 @@ graph TD
 
 ---
 
-## Installation Guide
+## <img src="assets/icons/download.svg" width="22" height="22" valign="middle" /> Installation Guide
 
 ### Option A: Install from Source (Developer Mode)
 
@@ -181,7 +181,7 @@ Test and verify all features locally without spinning up a server:
 
 ---
 
-## Developer Toolchain & Production Packaging
+## <img src="assets/icons/terminal.svg" width="22" height="22" valign="middle" /> Developer Toolchain & Production Packaging
 
 SmoothFlow maintains a zero-dependency Node.js toolchain for automated validation and distribution:
 
@@ -201,7 +201,7 @@ Executing `npm run build` compiles a release-ready archive in `dist/` containing
 
 ---
 
-## Chrome Web Store Publishing
+## <img src="assets/icons/chrome.svg" width="22" height="22" valign="middle" /> Chrome Web Store Publishing
 
 To distribute your customized build:
 
@@ -212,7 +212,7 @@ To distribute your customized build:
 
 ---
 
-## Privacy & Security
+## <img src="assets/icons/shield-check.svg" width="22" height="22" valign="middle" /> Privacy & Security
 
 SmoothFlow is engineered with strict local-first privacy guarantees:
 
@@ -223,7 +223,7 @@ SmoothFlow is engineered with strict local-first privacy guarantees:
 
 ---
 
-## Sponsors & Community Backing
+## <img src="assets/icons/heart.svg" width="22" height="22" valign="middle" /> Sponsors & Community Backing
 
 SmoothFlow Studio is an independent open-source project. If SmoothFlow saves you hours in post-production video editing or elevates your product demos, consider supporting ongoing development.
 
@@ -254,14 +254,14 @@ SmoothFlow Studio is an independent open-source project. If SmoothFlow saves you
 
 ---
 
-## Contributing
+## <img src="assets/icons/git-pull-request.svg" width="22" height="22" valign="middle" /> Contributing
 
 Contributions, technical discussions, and feature proposals are welcome.
 Please review [CONTRIBUTING.md](CONTRIBUTING.md) for code styling and branch submission standards.
 
 ---
 
-## License
+## <img src="assets/icons/file-text.svg" width="22" height="22" valign="middle" /> License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for complete details.
 
