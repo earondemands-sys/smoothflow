@@ -1,0 +1,32 @@
+{
+  "name": "smoothflow-studio",
+  "version": "1.0.0",
+  "description": "Cinematic scroll director, section-to-section timing, smooth cursor physics, and synchronized 60fps screen recording for Google Chrome.",
+  "main": "content/content.js",
+  "scripts": {
+    "validate": "node scripts/validate.js",
+    "build": "node scripts/build.js",
+    "test": "node scripts/validate.js",
+    "package": "npm run build"
+  },
+  "keywords": [
+    "chrome-extension",
+    "screen-studio",
+    "cinematic-scroll",
+    "screen-recorder",
+    "cursor-animation",
+    "smooth-scroll",
+    "demo-video",
+    "manifest-v3"
+  ],
+  "author": "Jayakrishna Chinta",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/earondemands-sys/smoothflow.git"
+  },
+  "bugs": {
+    "url": "https://github.com/earondemands-sys/smoothflow/issues"
+  },
+  "homepage": "https://github.com/earondemands-sys/smoothflow#readme"
+}

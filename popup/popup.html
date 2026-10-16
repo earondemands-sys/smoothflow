@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmoothFlow Studio</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="sf-popup">
+    <!-- Header -->
+    <header class="sf-header">
+      <div class="sf-logo-wrap">
+        <div class="sf-logo-icon">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M2 12c2.5-4 5-4 7 0s4.5 4 7 0 4.5-4 6 0"/>
+          </svg>
+        </div>
+        <div>
+          <div class="sf-title-wrap">
+            <h1 class="sf-title">SmoothFlow</h1>
+            <span class="sf-pill-tag">Studio</span>
+          </div>
+          <span class="sf-subtitle">Cinematic scroll director</span>
+        </div>
+      </div>
+      <span class="sf-status-badge" id="sf-status">Active</span>
+    </header>
+
+    <!-- Quick Action Launch -->
+    <div class="sf-card sf-launch-card">
+      <div class="sf-card-content">
+        <h3>Director panel</h3>
+        <p>Build a scene timeline and record it right on the page.</p>
+      </div>
+      <button id="btn-toggle-hud" class="sf-btn sf-btn-secondary">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect width="18" height="18" x="3" y="3" rx="2" ry="2"/>
+          <line x1="3" y1="9" x2="21" y2="9"/>
+          <line x1="9" y1="21" x2="9" y2="9"/>
+        </svg>
+        <span>Show / hide panel</span>
+        <kbd data-shortcut="E">Ctrl+Shift+E</kbd>
+      </button>
+    </div>
+
+    <!-- Quick Controls -->
+    <div class="sf-card">
+      <div class="sf-section-title">Quick settings</div>
+      
+      <div class="sf-toggle-row">
+        <div class="sf-toggle-info">
+          <span class="sf-toggle-label">Smooth cursor</span>
+          <span class="sf-toggle-desc">Glides with spring damping</span>
+        </div>
+        <label class="sf-switch">
+          <input type="checkbox" id="toggle-cursor" checked>
+          <span class="sf-slider"></span>
+        </label>
+      </div>
+
+      <div class="sf-toggle-row">
+        <div class="sf-toggle-info">
+          <span class="sf-toggle-label">Inertial wheel scroll</span>
+          <span class="sf-toggle-desc">Removes choppy notch steps</span>
+        </div>
+        <label class="sf-switch">
+          <input type="checkbox" id="toggle-wheel-scroll" checked>
+          <span class="sf-slider"></span>
+        </label>
+      </div>
+
+      <div class="sf-toggle-row">
+        <div class="sf-toggle-info">
+          <span class="sf-toggle-label">Spotlight</span>
+          <span class="sf-toggle-desc">Dims the page around the cursor</span>
+        </div>
+        <label class="sf-switch">
+          <input type="checkbox" id="toggle-spotlight">
+          <span class="sf-slider"></span>
+        </label>
+      </div>
+    </div>
+
+    <!-- Direct Short-actions -->
+    <div class="sf-action-grid">
+      <button id="btn-quick-scroll" class="sf-btn sf-btn-secondary">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"/>
+        </svg>
+        <span>Preview</span>
+      </button>
+
+      <button id="btn-quick-record" class="sf-btn sf-btn-primary">
+        <span class="sf-rec-dot"></span>
+        <span>Record</span>
+      </button>
+    </div>
+
+    <!-- Hotkeys -->
+    <div class="sf-footer">
+      <div class="sf-hotkey-list">
+        <span><kbd data-shortcut="S">Ctrl+Shift+S</kbd> Preview</span>
+        <span><kbd data-shortcut="L">Ctrl+Shift+L</kbd> Record</span>
+        <span><kbd>Esc</kbd> Stop</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
