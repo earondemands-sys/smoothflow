@@ -9,6 +9,8 @@
 [![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-Ready-34A853?style=for-the-badge&logo=googlechrome&logoColor=white)](#-chrome-web-store-publishing)
 [![Frame Rate](https://img.shields.io/badge/Capture-60_FPS_Fluid-FF0055?style=for-the-badge&logo=obsstudio&logoColor=white)](#-synchronized-60-fps--4k-recording)
 [![Resolution](https://img.shields.io/badge/Export-Up_to_4K_UHD-8b5cf6?style=for-the-badge)](#-synchronized-60-fps--4k-recording)
+[![Sponsor](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/earondemands-sys)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/earondemands)
 [![Privacy](https://img.shields.io/badge/Privacy-100%25_Local_Zero_Tracking-10b981?style=for-the-badge)](#-privacy--security)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 
@@ -209,6 +211,13 @@ SmoothFlow is designed with privacy as a foundational principle:
 
 Contributions, feature requests, and bug reports are warmly welcome!
 Please check out [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code style and PR guidelines.
+
+## 💖 Support the Project
+
+If SmoothFlow helped you record buttery-smooth product demos or saved you hours in video editing, consider supporting ongoing development:
+
+- **GitHub Sponsors**: [Sponsor @earondemands-sys on GitHub](https://github.com/sponsors/earondemands-sys) *(0% fee, 100% directly supports development)*
+- **Buy Me a Coffee**: [buymeacoffee.com/earondemands](https://buymeacoffee.com/earondemands)
 
 ---
 
