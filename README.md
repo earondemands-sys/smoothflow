@@ -10,7 +10,7 @@
 [![Frame Rate](https://img.shields.io/badge/Capture-60_FPS_Fluid-FF0055?style=for-the-badge&logo=obsstudio&logoColor=white)](#synchronized-60-fps--4k-recording)
 [![Resolution](https://img.shields.io/badge/Export-Up_to_4K_UHD-8b5cf6?style=for-the-badge)](#synchronized-60-fps--4k-recording)
 [![Sponsor](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/earondemands-sys)
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/earondemands)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/jaykrishna7)
 [![Privacy](https://img.shields.io/badge/Privacy-100%25_Local_Zero_Tracking-10b981?style=for-the-badge)](#privacy--security)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 
@@ -230,7 +230,7 @@ SmoothFlow Studio is an independent open-source project. If SmoothFlow saves you
 <div align="center">
 
 [![Sponsor on GitHub](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/earondemands-sys)
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/earondemands)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/jaykrishna7)
 
 </div>
 
@@ -250,7 +250,7 @@ SmoothFlow Studio is an independent open-source project. If SmoothFlow saves you
   [https://github.com/sponsors/earondemands-sys](https://github.com/sponsors/earondemands-sys)
 
 - **Sponsor via Buy Me a Coffee**:  
-  [https://buymeacoffee.com/earondemands](https://buymeacoffee.com/earondemands)
+  [https://buymeacoffee.com/jaykrishna7](https://buymeacoffee.com/jaykrishna7)
 
 ---
 
